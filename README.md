@@ -47,5 +47,11 @@ TODO: Run eslint-doc-generator to generate the configs list (or delete this sect
 ## Rules
 
 <!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
+
+🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
+
+| Name                                                             | Description                                         | 🔧 |
+| :--------------------------------------------------------------- | :-------------------------------------------------- | :- |
+| [no-react-i18next-import](docs/rules/no-react-i18next-import.md) | Enforce using next-i18next instead of react-i18next | 🔧 |
+
 <!-- end auto-generated rules list -->
