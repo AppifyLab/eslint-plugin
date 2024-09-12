@@ -1,4 +1,4 @@
-# eslint-plugin-eslint-plugin
+# @ezycourse/eslint-plugin
 
 Eslint rules for ezycourse
 
