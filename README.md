@@ -76,6 +76,7 @@ TODO: Run eslint-doc-generator to generate the configs list (or delete this sect
 
 | Name                                                             | Description                                         | 🔧 |
 | :--------------------------------------------------------------- | :-------------------------------------------------- | :- |
+| [no-axios-import](docs/rules/no-axios-import.md)                 | Disallow direct import of axio                      | 🔧 |
 | [no-react-i18next-import](docs/rules/no-react-i18next-import.md) | Enforce using next-i18next instead of react-i18next | 🔧 |
 
 <!-- end auto-generated rules list -->

@@ -40,5 +40,6 @@
   "peerDependencies": {
     "eslint": ">=8.57.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.10.0"
 }
