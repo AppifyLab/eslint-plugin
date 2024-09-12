@@ -10,36 +10,33 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-eslint-plugin`:
+Next, install `@ezy/eslint-plugin`:
 
 ```sh
-npm install eslint-plugin-eslint-plugin --save-dev
+npm install @ezy/eslint-plugin --save-dev
 ```
 
 ## Usage
 
-Add `eslint-plugin` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@ezy` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin` part:
 
 ```json
 {
     "plugins": [
-        "eslint-plugin"
+        "@ezy"
     ]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
     "rules": {
-        "eslint-plugin/rule-name": 2
+        "@ezy/rule-name": 2
     }
 }
 ```
-
-
 
 ## Configurations
 
@@ -47,12 +44,8 @@ Then configure the rules you want to use under the rules section.
 TODO: Run eslint-doc-generator to generate the configs list (or delete this section if no configs are offered).
 <!-- end auto-generated configs list -->
 
-
-
 ## Rules
 
 <!-- begin auto-generated rules list -->
 TODO: Run eslint-doc-generator to generate the rules list.
 <!-- end auto-generated rules list -->
-
-
