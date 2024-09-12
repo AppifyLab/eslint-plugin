@@ -12,7 +12,8 @@
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "docs"
   ],
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
