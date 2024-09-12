@@ -7,13 +7,37 @@ Eslint rules for ezycourse
 You'll first need to install [ESLint](https://eslint.org/):
 
 ```sh
-npm i eslint --save-dev
+pnpm add -D eslint
+```
+
+or with npm
+
+```sh
+npm install --save-dev eslint
+```
+
+or with yarn
+
+```sh
+yarn add --dev eslint
 ```
 
 Next, install `@ezycourse/eslint-plugin`:
 
 ```sh
-npm install @ezycourse/eslint-plugin --save-dev
+pnpm add -D @ezycourse/eslint-plugin
+```
+
+or with npm
+
+```sh
+npm install --save-dev @ezycourse/eslint-plugin
+```
+
+or with yarn
+
+```sh
+yarn add --dev @ezycourse/eslint-plugin
 ```
 
 ## Usage
