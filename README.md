@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `@ezy/eslint-plugin`:
+Next, install `@ezycourse/eslint-plugin`:
 
 ```sh
-npm install @ezy/eslint-plugin --save-dev
+npm install @ezycourse/eslint-plugin --save-dev
 ```
 
 ## Usage
 
-Add `@ezy` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin` part:
+Add `@ezycourse` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin` part:
 
 ```json
 {
     "plugins": [
-        "@ezy"
+        "@ezycourse"
     ]
 }
 ```
@@ -33,7 +33,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "@ezy/rule-name": 2
+        "@ezycourse/rule-name": 2
     }
 }
 ```
