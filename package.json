@@ -1,6 +1,6 @@
 {
   "name": "@ezycourse/eslint-plugin",
-  "version": "0.0.3",
+  "version": "0.0.30",
   "private": false,
   "description": "Eslint rules for ezycourse",
   "keywords": [
@@ -41,5 +41,13 @@
     "eslint": ">=8.57.0"
   },
   "license": "MIT",
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.10.0",
+  "homepage": "https://github.com/AppifyLab/eslint-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/AppifyLab/eslint-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppifyLab/eslint-plugin.git"
+  }
 }
