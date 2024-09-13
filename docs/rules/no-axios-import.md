@@ -1,4 +1,4 @@
-# Disallow direct import of axio (`@ezycourse/no-axios-import`)
+# Disallow direct import of axios (`@ezycourse/no-axios-import`)
 
 🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
