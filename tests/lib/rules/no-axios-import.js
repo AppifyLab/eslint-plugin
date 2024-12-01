@@ -1,5 +1,5 @@
 /**
- * @fileoverview Disallow direct import of axio
+ * @fileoverview Disallow direct import of axios
  * @author Najmus Sakib
  */
 "use strict";
