@@ -20,7 +20,8 @@
     "lint:eslint-docs": "eslint-doc-generator --check",
     "lint:js": "eslint .",
     "test": "mocha tests --recursive",
-    "update:eslint-docs": "eslint-doc-generator"
+    "update:eslint-docs": "eslint-doc-generator",
+    "prepublish": "npm run lint && npm run test"
   },
   "dependencies": {
     "requireindex": "^1.2.0"
