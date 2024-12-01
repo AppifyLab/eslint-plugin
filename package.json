@@ -1,6 +1,6 @@
 {
   "name": "@ezycourse/eslint-plugin",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "private": false,
   "description": "Eslint rules for ezycourse",
   "keywords": [
