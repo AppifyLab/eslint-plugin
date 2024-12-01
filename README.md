@@ -2,6 +2,13 @@
 
 Eslint rules for ezycourse
 
+<p align="center">
+  <img alt="Downloads total" src="https://img.shields.io/npm/dt/@ezycourse/eslint-plugin?label=Downloads&logo=deezer&logoColor=white&style=flat-square" />
+  <a href="https://www.npmjs.com/package/@ezycourse/eslint-plugin">
+    <img alt="Visit the NPM page" src="https://img.shields.io/npm/v/@ezycourse/eslint-plugin?color=orange&logo=npm&logoColor=white&style=flat-square"/>
+  </a>
+<p/>
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
