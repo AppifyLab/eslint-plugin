@@ -23,6 +23,18 @@ import callApi from 'Utils/api';
 
 ```
 
+## Options
+
+This rule has an options to specify the importPath of the api util file.
+
+```json
+{
+  "rules": {
+    "@ezycourse/no-axios-import": ["error", { "importPath": "custom/path" }]
+  }
+}
+```
+
 ## When Not To Use It
 
 If you think that it is fine to use axios directly in your code, you can disable this rule.
