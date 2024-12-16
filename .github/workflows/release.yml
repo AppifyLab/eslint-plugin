@@ -28,11 +28,8 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Test
-        run: pnpm test
-
-      - name: Build
-        run: pnpm build
+      - name: Linting and Testing
+        run: pnpm run lint && pnpm run test
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
