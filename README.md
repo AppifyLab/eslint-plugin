@@ -1,11 +1,11 @@
-# @ezycourse/eslint-plugin
+# @ezylab/eslint-plugin
 
 Eslint rules for ezycourse
 
 <p align="center">
-  <img alt="Downloads total" src="https://img.shields.io/npm/dt/@ezycourse/eslint-plugin?label=Downloads&logo=deezer&logoColor=white&style=flat-square" />
-  <a href="https://www.npmjs.com/package/@ezycourse/eslint-plugin">
-    <img alt="Visit the NPM page" src="https://img.shields.io/npm/v/@ezycourse/eslint-plugin?color=orange&logo=npm&logoColor=white&style=flat-square"/>
+  <img alt="Downloads total" src="https://img.shields.io/npm/dt/@ezylab/eslint-plugin?label=Downloads&logo=deezer&logoColor=white&style=flat-square" />
+  <a href="https://www.npmjs.com/package/@ezylab/eslint-plugin">
+    <img alt="Visit the NPM page" src="https://img.shields.io/npm/v/@ezylab/eslint-plugin?color=orange&logo=npm&logoColor=white&style=flat-square"/>
   </a>
 <p/>
 
@@ -29,33 +29,31 @@ or with yarn
 yarn add --dev eslint
 ```
 
-Next, install `@ezycourse/eslint-plugin`:
+Next, install `@ezylab/eslint-plugin`:
 
 ```sh
-pnpm add -D @ezycourse/eslint-plugin
+pnpm add -D @ezylab/eslint-plugin
 ```
 
 or with npm
 
 ```sh
-npm install --save-dev @ezycourse/eslint-plugin
+npm install --save-dev @ezylab/eslint-plugin
 ```
 
 or with yarn
 
 ```sh
-yarn add --dev @ezycourse/eslint-plugin
+yarn add --dev @ezylab/eslint-plugin
 ```
 
 ## Usage
 
-Add `@ezycourse` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin` part:
+Add `@ezylab` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin` part:
 
 ```json
 {
-    "plugins": [
-        "@ezycourse"
-    ]
+    "plugins": ["@ezylab"]
 }
 ```
 
@@ -64,7 +62,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "@ezycourse/rule-name": 2
+        "@ezylab/rule-name": 2
     }
 }
 ```
@@ -72,7 +70,9 @@ Then configure the rules you want to use under the rules section.
 ## Configurations
 
 <!-- begin auto-generated configs list -->
+
 TODO: Run eslint-doc-generator to generate the configs list (or delete this section if no configs are offered).
+
 <!-- end auto-generated configs list -->
 
 ## Rules

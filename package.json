@@ -1,59 +1,58 @@
 {
-  "name": "@ezycourse/eslint-plugin",
-  "version": "0.1.0",
-  "private": false,
-  "description": "Eslint rules for ezycourse",
-  "keywords": [
-    "eslint",
-    "ezycourse",
-    "ezy-eslint-plugin"
-  ],
-  "author": "Najmus Sakib",
-  "main": "./lib/index.js",
-  "exports": "./lib/index.js",
-  "files": [
-    "lib",
-    "docs"
-  ],
-  "scripts": {
-    "lint": "npm-run-all \"lint:*\"",
-    "lint:eslint-docs": "eslint-doc-generator --check",
-    "lint:js": "eslint .",
-    "test": "mocha tests --recursive",
-    "update:eslint-docs": "eslint-doc-generator",
-    "prepublish": "npm run lint && npm run test"
-  },
-  "dependencies": {
-    "requireindex": "^1.2.0"
-  },
-  "devDependencies": {
-    "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.10",
-    "@eslint/js": "^9.16.0",
-    "eslint": "^9.16.0",
-    "eslint-doc-generator": "^1.7.1",
-    "eslint-plugin-eslint-plugin": "^6.3.2",
-    "eslint-plugin-n": "^17.14.0",
-    "mocha": "^11.0.1",
-    "npm-run-all2": "^7.0.1"
-  },
-  "engines": {
-    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=8.57.0"
-  },
-  "license": "MIT",
-  "packageManager": "pnpm@9.10.0",
-  "homepage": "https://github.com/AppifyLab/eslint-plugin#readme",
-  "bugs": {
-    "url": "https://github.com/AppifyLab/eslint-plugin/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AppifyLab/eslint-plugin.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@ezylab/eslint-plugin",
+    "version": "0.1.0",
+    "private": false,
+    "description": "Eslint rules for ezylab",
+    "keywords": [
+        "eslint",
+        "ezylab",
+        "ezy-eslint-plugin"
+    ],
+    "author": "Najmus Sakib",
+    "main": "./lib/index.js",
+    "exports": "./lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "lint": "npm-run-all \"lint:*\"",
+        "lint:eslint-docs": "eslint-doc-generator --check",
+        "lint:js": "eslint .",
+        "test": "mocha tests --recursive",
+        "update:eslint-docs": "eslint-doc-generator",
+        "prepublish": "npm run lint && npm run test"
+    },
+    "dependencies": {
+        "requireindex": "^1.2.0"
+    },
+    "devDependencies": {
+        "@changesets/changelog-github": "^0.5.0",
+        "@changesets/cli": "^2.27.10",
+        "@eslint/js": "^9.16.0",
+        "eslint": "^9.16.0",
+        "eslint-doc-generator": "^1.7.1",
+        "eslint-plugin-eslint-plugin": "^6.3.2",
+        "eslint-plugin-n": "^17.14.0",
+        "mocha": "^11.0.1",
+        "npm-run-all2": "^7.0.1"
+    },
+    "engines": {
+        "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.57.0"
+    },
+    "license": "MIT",
+    "packageManager": "pnpm@9.10.0",
+    "homepage": "https://github.com/AppifyLab/eslint-plugin#readme",
+    "bugs": {
+        "url": "https://github.com/AppifyLab/eslint-plugin/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AppifyLab/eslint-plugin.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

@@ -1,4 +1,4 @@
-# Disallow direct import of axios (`@ezycourse/no-axios-import`)
+# Disallow direct import of axios (`@ezylab/no-axios-import`)
 
 🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
@@ -13,14 +13,13 @@ This rule aims to prevent direct imports of axios.
 Examples of **incorrect** code for this rule:
 
 ```ts
-import axios from 'axios';
+import axios from "axios";
 ```
 
 Examples of **correct** code for this rule:
 
 ```ts
-import callApi from 'Utils/api';
-
+import callApi from "Utils/api";
 ```
 
 ## Options
@@ -29,9 +28,9 @@ This rule has an options to specify the importPath of the api util file.
 
 ```json
 {
-  "rules": {
-    "@ezycourse/no-axios-import": ["error", { "importPath": "custom/path" }]
-  }
+    "rules": {
+        "@ezylab/no-axios-import": ["error", { "importPath": "custom/path" }]
+    }
 }
 ```
 
